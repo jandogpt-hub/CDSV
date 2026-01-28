@@ -21,8 +21,8 @@
             --accent: #ffffff;
             --accent-green: #00b84c;
             --accent-green-glow: rgba(0, 184, 76, 0.3);
-            --muted: #444444;
-            --border: rgba(255, 255, 255, 0.1);
+            --muted: #a0a0a0;
+            --border: rgba(255, 255, 255, 0.15);
             --font-sans: 'Inter', sans-serif;
             --font-mono: 'JetBrains Mono', monospace;
             --transition: cubic-bezier(0.23, 1, 0.32, 1);
@@ -129,12 +129,13 @@
 
         .nav-link {
             font-family: var(--font-mono);
-            font-size: 0.75rem;
+            font-size: 0.85rem;
             text-decoration: none;
-            color: var(--muted);
+            color: #d0d0d0;
             transition: color 0.4s var(--transition);
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            font-weight: 500;
         }
 
         .nav-link:hover {
