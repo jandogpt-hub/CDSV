@@ -612,6 +612,15 @@
             .cursor {
                 display: block;
             }
+
+            /* Hide mobile menu on tablet+ */
+            .mobile-menu-toggle {
+                display: none;
+            }
+
+            .mobile-menu {
+                display: none;
+            }
         }
 
         /* ===== DESKTOP BREAKPOINT (1024px+) ===== */

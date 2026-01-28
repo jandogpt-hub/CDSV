@@ -1,7 +1,6 @@
     <nav>
         <a href="/" class="logo">
-            <img src="https://res.cloudinary.com/dya7x7z9g/image/upload/v1768432137/car-detaling-services-logo250x250_blxehz.png" alt="Car Detailing Services Visalia Logo">
-            <span class="logo-text">CDSV / Visalia</span>
+            <img src="https://res.cloudinary.com/dya7x7z9g/image/upload/v1768432137/car-detaling-services-logo250x250_blxehz.png" alt="Excalibur Mobile Detail Logo">
         </a>
         
         <!-- Desktop Navigation -->
