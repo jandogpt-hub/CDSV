@@ -21,6 +21,9 @@
                     <a href="/services/full-detail.php" class="dropdown-link">Full Detail Package</a>
                 </div>
             </div>
+            
+            <!-- Book Appointment Button -->
+            <a href="#book-appointment" class="nav-book-btn">Book Appointment</a>
         </div>
 
         <!-- Mobile Menu Toggle -->
@@ -45,6 +48,8 @@
             <a href="/services/specialty-restoration.php" class="dropdown-link">Specialty & Restoration</a>
             <a href="/services/full-detail.php" class="dropdown-link">Full Detail Package</a>
         </div>
+        
+        <a href="#book-appointment" class="nav-book-btn" style="margin-top: 20px; display: inline-block;">Book Appointment</a>
     </div>
 
     <script>

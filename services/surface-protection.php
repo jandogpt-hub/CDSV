@@ -36,9 +36,9 @@ $pageDescription = 'Professional ceramic coating and paint protection in Visalia
             <div id="standard-ceramic" style="border: 1px solid var(--border); padding: 40px; margin-bottom: 30px;">
                 <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 20px; margin-bottom: 25px;">
                     <h3 style="color: var(--accent); font-size: 1.5rem; font-weight: 400;">Standard Ceramic Package</h3>
-                    <span style="font-family: var(--font-mono); font-size: 1.5rem; color: var(--accent-gold);">$399</span>
+                    <span style="font-family: var(--font-mono); font-size: 1.5rem; color: var(--accent-green);">$399</span>
                 </div>
-                <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 1.8; margin-bottom: 20px; border-left: 2px solid var(--accent-gold); padding-left: 20px;">
+                <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 1.8; margin-bottom: 20px; border-left: 2px solid var(--accent-green); padding-left: 20px;">
                     <strong>Ideal for:</strong> Brand new vehicles right off the lot with no existing defects.
                 </p>
                 <ul style="list-style: none; font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 2; columns: 2; column-gap: 40px;">
@@ -52,15 +52,15 @@ $pageDescription = 'Professional ceramic coating and paint protection in Visalia
             </div>
 
             <!-- Premium Package -->
-            <div id="premium-ceramic" style="border: 1px solid var(--accent-gold); padding: 40px; margin-bottom: 30px; background: var(--accent-gold-glow);">
+            <div id="premium-ceramic" style="border: 1px solid var(--accent-green); padding: 40px; margin-bottom: 30px; background: var(--accent-green-glow);">
                 <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 20px; margin-bottom: 25px;">
                     <div>
                         <h3 style="color: var(--accent); font-size: 1.5rem; font-weight: 400;">Premium Ceramic Package</h3>
-                        <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-gold);">MOST POPULAR</span>
+                        <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-green);">MOST POPULAR</span>
                     </div>
-                    <span style="font-family: var(--font-mono); font-size: 1.5rem; color: var(--accent-gold);">$648</span>
+                    <span style="font-family: var(--font-mono); font-size: 1.5rem; color: var(--accent-green);">$648</span>
                 </div>
-                <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 1.8; margin-bottom: 20px; border-left: 2px solid var(--accent-gold); padding-left: 20px;">
+                <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 1.8; margin-bottom: 20px; border-left: 2px solid var(--accent-green); padding-left: 20px;">
                     <strong>Ideal for:</strong> Vehicles with moderate swirls, light scratches, or buffer halos.
                 </p>
                 <ul style="list-style: none; font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 2; columns: 2; column-gap: 40px;">
@@ -78,9 +78,9 @@ $pageDescription = 'Professional ceramic coating and paint protection in Visalia
                         <h3 style="color: var(--accent); font-size: 1.5rem; font-weight: 400;">Elite Ceramic Package</h3>
                         <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted);">SHOWROOM FINISH</span>
                     </div>
-                    <span style="font-family: var(--font-mono); font-size: 1.5rem; color: var(--accent-gold);">$1,146</span>
+                    <span style="font-family: var(--font-mono); font-size: 1.5rem; color: var(--accent-green);">$1,146</span>
                 </div>
-                <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 1.8; margin-bottom: 20px; border-left: 2px solid var(--accent-gold); padding-left: 20px;">
+                <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 1.8; margin-bottom: 20px; border-left: 2px solid var(--accent-green); padding-left: 20px;">
                     <strong>Ideal for:</strong> Severe swirls, deep scratches, or owners demanding a true showroom finish. 99.9% defect removal.
                 </p>
                 <ul style="list-style: none; font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); line-height: 2; columns: 2; column-gap: 40px;">
@@ -112,15 +112,15 @@ $pageDescription = 'Professional ceramic coating and paint protection in Visalia
             
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div style="border: 1px solid var(--border); padding: 25px;">
-                    <h3 style="color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">Full Front End PPF</h3>
+                    <h3 style="color: var(--accent-green); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">Full Front End PPF</h3>
                     <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">Complete coverage: hood, fenders, bumper, mirrors, headlights. Maximum protection for daily drivers and highway commuters.</p>
                 </div>
                 <div style="border: 1px solid var(--border); padding: 25px;">
-                    <h3 style="color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">High-Impact Area PPF</h3>
+                    <h3 style="color: var(--accent-green); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">High-Impact Area PPF</h3>
                     <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">Strategic coverage for rocker panels, mirrors, door edges, and door cups. Cost-effective protection for vulnerable zones.</p>
                 </div>
                 <div style="border: 1px solid var(--border); padding: 25px;">
-                    <h3 style="color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">Track Pack PPF</h3>
+                    <h3 style="color: var(--accent-green); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">Track Pack PPF</h3>
                     <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">Custom-cut patterns for performance vehicles. Protects against track debris while maintaining factory appearance.</p>
                 </div>
             </div>
@@ -135,11 +135,11 @@ $pageDescription = 'Professional ceramic coating and paint protection in Visalia
             
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div style="border: 1px solid var(--border); padding: 25px;">
-                    <h3 style="color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">Carnauba Wax Application</h3>
+                    <h3 style="color: var(--accent-green); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">Carnauba Wax Application</h3>
                     <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">Premium natural carnauba wax for deep, warm gloss. Lasts 4-8 weeks. The classic choice for car enthusiasts.</p>
                 </div>
                 <div style="border: 1px solid var(--border); padding: 25px;">
-                    <h3 style="color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">Polymer Paint Sealant</h3>
+                    <h3 style="color: var(--accent-green); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 12px;">Polymer Paint Sealant</h3>
                     <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">Synthetic sealant with 4-6 month durability. Excellent water beading and UV protection. Ideal for daily drivers.</p>
                 </div>
             </div>

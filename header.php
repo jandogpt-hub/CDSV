@@ -19,8 +19,8 @@
             --bg: #050505;
             --surface: #0a0a0a;
             --accent: #ffffff;
-            --accent-gold: #c9a227;
-            --accent-gold-glow: rgba(201, 162, 39, 0.3);
+            --accent-green: #00b84c;
+            --accent-green-glow: rgba(0, 184, 76, 0.3);
             --muted: #444444;
             --border: rgba(255, 255, 255, 0.1);
             --font-sans: 'Inter', sans-serif;
@@ -86,7 +86,7 @@
 
         /* ===== MOBILE-FIRST BASE STYLES ===== */
 
-        /* Navigation */
+        /* Navigation - Sticky */
         nav {
             padding: var(--space-sm);
             display: flex;
@@ -96,6 +96,10 @@
             width: 100%;
             top: 0;
             z-index: 100;
+            background: rgba(5, 5, 5, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
         }
 
         .logo {
@@ -134,7 +138,27 @@
         }
 
         .nav-link:hover {
-            color: var(--accent-gold);
+            color: var(--accent-green);
+        }
+        
+        /* Book Appointment Button in Nav */
+        .nav-book-btn {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            text-decoration: none;
+            color: var(--bg);
+            background: var(--accent-green);
+            padding: 10px 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s var(--transition);
+            border: 1px solid var(--accent-green);
+        }
+        
+        .nav-book-btn:hover {
+            background: transparent;
+            color: var(--accent-green);
+            box-shadow: 0 0 20px var(--accent-green-glow);
         }
 
         /* Dropdown Menu Styles */
@@ -193,8 +217,8 @@
         }
 
         .dropdown-link:hover {
-            color: var(--accent-gold);
-            background: var(--accent-gold-glow);
+            color: var(--accent-green);
+            background: var(--accent-green-glow);
             padding-left: 30px;
         }
 
@@ -305,7 +329,7 @@
         .tensile-line {
             width: 100%;
             height: 2px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-gold) 50%, transparent 50%);
+            background: linear-gradient(90deg, var(--accent-green), var(--accent-green) 50%, transparent 50%);
             margin: var(--space-sm) 0;
             transform-origin: left;
             animation: stretch 2s var(--transition) forwards;
@@ -390,7 +414,7 @@
         .service-num {
             font-family: var(--font-mono);
             font-size: 0.75rem;
-            color: var(--accent-gold);
+            color: var(--accent-green);
         }
 
         .service-content {
@@ -439,7 +463,7 @@
         .tensile-button {
             display: inline-block;
             padding: 18px 32px;
-            border: 2px solid var(--accent-gold);
+            border: 2px solid var(--accent-green);
             background: transparent;
             color: var(--accent);
             font-family: var(--font-mono);
@@ -452,7 +476,7 @@
             transition: all 0.4s var(--transition);
             cursor: pointer;
             white-space: nowrap;
-            box-shadow: 0 0 20px var(--accent-gold-glow);
+            box-shadow: 0 0 20px var(--accent-green-glow);
         }
 
         .tensile-button::before {
@@ -462,7 +486,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: var(--accent-gold);
+            background: var(--accent-green);
             transition: left 0.4s var(--transition);
             z-index: -1;
         }
