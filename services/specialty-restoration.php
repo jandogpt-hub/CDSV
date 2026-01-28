@@ -119,7 +119,7 @@ $pageDescription = 'Professional paint correction, headlight restoration, engine
         </section>
 
         <section class="cta-section">
-            <button class="tensile-button" id="reserveBtn" onclick="triggerAntigravityVoice()">Get a Free Quote</button>
+            <a href="https://app.urable.com/virtual-shop/bBLskP5ynNpywa8LJCRp" class="tensile-button" target="_blank" style="text-decoration: none;">Get a Free Quote</a>
         </section>
     </main>
 

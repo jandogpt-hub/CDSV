@@ -424,7 +424,7 @@ $pageDescription = 'Premium car detailing service in Visalia, CA. Expert paint c
             <div style="max-width: 600px; margin: 0 auto; text-align: center;">
                 <p class="section-label">Experience The Royal Touch</p>
                 <h2 class="section-title">Ready to transform your vehicle?</h2>
-                <a href="#book-appointment" class="tensile-button">Get a Free Quote</a>
+                <a href="https://app.urable.com/virtual-shop/bBLskP5ynNpywa8LJCRp" class="tensile-button" target="_blank">Get a Free Quote</a>
             </div>
         </section>
 
@@ -615,62 +615,20 @@ $pageDescription = 'Premium car detailing service in Visalia, CA. Expert paint c
             </p>
         </section>
 
-        <!-- Appointment Form Section -->
-        <section id="book-appointment" style="padding: 80px 40px; background: var(--surface); border-top: 1px solid var(--border);">
-            <div style="max-width: 800px; margin: 0 auto;">
-                <div style="text-align: center; margin-bottom: 50px;">
-                    <p class="section-label">Book Now</p>
-                    <h2 class="section-title">Request a <span class="green-accent">Quote</span></h2>
-                    <p class="section-subtitle" style="margin: 0 auto;">
-                        Fill out the form below and we'll get back to you within 24 hours with a custom quote.
-                    </p>
-                </div>
+        <!-- Booking Section -->
+        <section id="book-appointment" style="padding: 100px 40px; background: var(--surface); border-top: 1px solid var(--border);">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p class="section-label">Book Now</p>
+                <h2 class="section-title">Schedule Your <span class="green-accent">Detail</span></h2>
+                <p class="section-subtitle" style="margin: 0 auto 40px;">
+                    Ready to get started? Use our online booking system to select your package, choose a time, and secure your appointment instantly.
+                </p>
                 
-                <div class="appointment-form-container">
-                    <form id="appointmentForm" action="#" method="POST">
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-                            <div class="form-group">
-                                <label class="form-label" for="name">Full Name *</label>
-                                <input type="text" id="name" name="name" class="form-input" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="phone">Phone Number *</label>
-                                <input type="tel" id="phone" name="phone" class="form-input" required>
-                            </div>
-                        </div>
-                        
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-                            <div class="form-group">
-                                <label class="form-label" for="email">Email Address</label>
-                                <input type="email" id="email" name="email" class="form-input">
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="service">Service Interested In</label>
-                                <select id="service" name="service" class="form-select">
-                                    <option value="">Select a service...</option>
-                                    <option value="ceramic-coating">Ceramic Coating</option>
-                                    <option value="paint-correction">Paint Correction</option>
-                                    <option value="interior-detail">Interior Detailing</option>
-                                    <option value="full-detail">Full Detail</option>
-                                    <option value="maintenance">Maintenance Wash</option>
-                                    <option value="other">Other / Not Sure</option>
-                                </select>
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="form-label" for="vehicle">Vehicle (Year, Make, Model)</label>
-                            <input type="text" id="vehicle" name="vehicle" class="form-input" placeholder="e.g., 2022 Toyota Camry">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="form-label" for="message">Additional Details</label>
-                            <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your vehicle's condition, any specific concerns, or preferred scheduling..."></textarea>
-                        </div>
-                        
-                        <button type="submit" class="tensile-button" style="width: 100%; text-align: center;">Submit Quote Request</button>
-                    </form>
-                </div>
+                <a href="https://app.urable.com/virtual-shop/bBLskP5ynNpywa8LJCRp" class="tensile-button" target="_blank" style="padding: 20px 50px; font-size: 1rem;">Book Appointment Online</a>
+                
+                <p style="margin-top: 30px; font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted);">
+                    Prefer to talk? Call us at <a href="tel:5598024392" style="color: var(--accent-green); text-decoration: none;">(559) 802-4392</a>
+                </p>
             </div>
         </section>
 

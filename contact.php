@@ -79,7 +79,7 @@ $pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto
                             <li style="padding: 8px 0;">→ Preferred date and location</li>
                         </ul>
                         
-                        <button class="tensile-button" id="reserveBtn" onclick="triggerAntigravityVoice()" style="width: 100%;">Get a Free Quote</button>
+                        <a href="https://app.urable.com/virtual-shop/bBLskP5ynNpywa8LJCRp" class="tensile-button" target="_blank" style="width: 100%; text-align: center; display: block; text-decoration: none;">Book Appointment Online</a>
                     </div>
                 </div>
             </div>

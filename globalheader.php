@@ -23,7 +23,7 @@
             </div>
             
             <!-- Book Appointment Button -->
-            <a href="#book-appointment" class="nav-book-btn">Book Appointment</a>
+            <a href="https://app.urable.com/virtual-shop/bBLskP5ynNpywa8LJCRp" class="nav-book-btn" target="_blank">Book Appointment</a>
         </div>
 
         <!-- Mobile Menu Toggle -->
@@ -49,7 +49,7 @@
             <a href="/services/full-detail.php" class="dropdown-link">Full Detail Package</a>
         </div>
         
-        <a href="#book-appointment" class="nav-book-btn" style="margin-top: 20px; display: inline-block;">Book Appointment</a>
+        <a href="https://app.urable.com/virtual-shop/bBLskP5ynNpywa8LJCRp" class="nav-book-btn" target="_blank" style="margin-top: 20px; display: inline-block;">Book Appointment</a>
     </div>
 
     <script>
