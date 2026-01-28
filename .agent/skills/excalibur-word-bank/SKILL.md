@@ -189,3 +189,14 @@ Technology protects paint | Warranty guarantees performance | Experts restore fi
 | **USP** | Touchless + mobile + Carfax registration |
 | **Promise** | 100% satisfaction, written warranties |
 | **Anti-positioning** | Wax is temporary, coatings are the solution |
+
+When building ceramic coating copy for service page make sure to include the following verbs
+
+Verbs 
+Wash, rinse, dry, scrub, agitate, decontaminate, clay, lubricate, strip, degrease, prep, polish, compound, buff, burnish, refine, level, wipe, apply, spread, coat, bond, cure, flash, haze, seal, protect, maintain, rejuvenate, restore.
+
+Adjectives 
+Hydrophobic, oleophobic, glossy, slick, mirror-like, transparent, durable, semi-permanent, sacrificial, resilient, scratch-resistant, UV-resistant, chemical-resistant, high-gloss, matte, satin, pristine, immaculate, swirl-free, oxidized, contaminated, porous, non-porous, nano-ceramic, liquid, crystalline, iridescent.
+
+Entities 
+Clear coat, paint, substrate, panel, ceramic coating, SiO2, Silicon Dioxide, TiO2, Titanium Dioxide, graphene, nano-particles, sealant, wax, carnauba, polymer, clay bar, lubricant, iron remover, tar remover, isopropyl alcohol, panel wipe, degreaser, shampoo, snow foam, microfiber towel, applicator pad, dual-action polisher, rotary polisher, wool pad, foam pad, grit guard, pressure washer, foam cannon, water spot, swirl mark, hologram, scratch, etching, oxidation, curing lamp, infrared light, bonding agent, solvent.

@@ -19,8 +19,8 @@
             --bg: #050505;
             --surface: #0a0a0a;
             --accent: #ffffff;
-            --accent-green: #00b84c;
-            --accent-green-glow: rgba(0, 184, 76, 0.3);
+            --accent-gold: #c9a227;
+            --accent-gold-glow: rgba(201, 162, 39, 0.3);
             --muted: #444444;
             --border: rgba(255, 255, 255, 0.1);
             --font-sans: 'Inter', sans-serif;
@@ -134,7 +134,7 @@
         }
 
         .nav-link:hover {
-            color: var(--accent-green);
+            color: var(--accent-gold);
         }
 
         /* Dropdown Menu Styles */
@@ -193,8 +193,8 @@
         }
 
         .dropdown-link:hover {
-            color: var(--accent-green);
-            background: var(--accent-green-glow);
+            color: var(--accent-gold);
+            background: var(--accent-gold-glow);
             padding-left: 30px;
         }
 
@@ -305,7 +305,7 @@
         .tensile-line {
             width: 100%;
             height: 2px;
-            background: linear-gradient(90deg, var(--accent-green), var(--accent-green) 50%, transparent 50%);
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-gold) 50%, transparent 50%);
             margin: var(--space-sm) 0;
             transform-origin: left;
             animation: stretch 2s var(--transition) forwards;
@@ -390,7 +390,7 @@
         .service-num {
             font-family: var(--font-mono);
             font-size: 0.75rem;
-            color: var(--accent-green);
+            color: var(--accent-gold);
         }
 
         .service-content {
@@ -439,7 +439,7 @@
         .tensile-button {
             display: inline-block;
             padding: 18px 32px;
-            border: 2px solid var(--accent-green);
+            border: 2px solid var(--accent-gold);
             background: transparent;
             color: var(--accent);
             font-family: var(--font-mono);
@@ -452,7 +452,7 @@
             transition: all 0.4s var(--transition);
             cursor: pointer;
             white-space: nowrap;
-            box-shadow: 0 0 20px var(--accent-green-glow);
+            box-shadow: 0 0 20px var(--accent-gold-glow);
         }
 
         .tensile-button::before {
@@ -462,7 +462,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: var(--accent-green);
+            background: var(--accent-gold);
             transition: left 0.4s var(--transition);
             z-index: -1;
         }
