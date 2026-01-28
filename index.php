@@ -461,43 +461,124 @@ $pageDescription = 'Premium car detailing service in Visalia, CA. Expert paint c
             </div>
         </section>
 
-        <!-- Mobile Service Promotion -->
-        <section style="padding: 80px 40px; background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
-            <div style="max-width: 1200px; margin: 0 auto;">
-                <div style="display: grid; grid-template-columns: 1fr; gap: 60px; align-items: center;">
-                    <div style="text-align: center;">
-                        <p class="section-label">We Come To You</p>
-                        <h2 class="section-title">Fully <span class="green-accent">Mobile</span> Service</h2>
-                        <p class="section-subtitle" style="margin: 0 auto 40px;">
-                            No need to drop off your vehicle. Our self-contained mobile unit brings the detail shop to your driveway or office parking lot.
-                        </p>
-                    </div>
+        <!-- Mobile Service Promotion - 50/50 Split -->
+        <section class="mobile-service-section">
+            <div class="mobile-service-bg-text">
+                <span>MOBILE</span>
+                <span>DETAILING</span>
+            </div>
+            <div class="mobile-service-container">
+                <!-- Content Side -->
+                <div class="mobile-service-content">
+                    <p class="section-label">Mobile Detailing</p>
+                    <h2 class="section-title" style="margin-bottom: 20px;">Busy Schedule? Try Our<br><span class="green-accent">Mobile Detailing</span> Service</h2>
+                    <p class="section-subtitle" style="margin-bottom: 30px;">
+                        Discover detailing right on your doorstep. Our fully self-contained Sprinter van brings professional-grade equipment, RO purified water, and 16+ years of expertise directly to your home or office.
+                    </p>
+                    <a href="/services/specialty-restoration.php#mobile-services" class="tensile-button">View Service</a>
                 </div>
                 
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 40px;">
-                    <div class="feature-box">
-                        <div class="feature-icon">🚐</div>
-                        <div class="feature-title">Self-Contained</div>
-                        <p class="feature-text">Full equipment, power, and water on board</p>
-                    </div>
-                    <div class="feature-box">
-                        <div class="feature-icon">💧</div>
-                        <div class="feature-title">RO Water System</div>
-                        <p class="feature-text">Purified water for spot-free finish</p>
-                    </div>
-                    <div class="feature-box">
-                        <div class="feature-icon">🏠</div>
-                        <div class="feature-title">Home or Office</div>
-                        <p class="feature-text">Detail while you work or relax</p>
-                    </div>
-                    <div class="feature-box">
-                        <div class="feature-icon">📍</div>
-                        <div class="feature-title">Central Valley</div>
-                        <p class="feature-text">Visalia, Tulare, Hanford, Fresno</p>
-                    </div>
+                <!-- Image Side -->
+                <div class="mobile-service-image">
+                    <img src="/images/sprinter-van.png" alt="Excalibur Mobile Detail Mercedes Sprinter Van">
                 </div>
             </div>
         </section>
+
+        <style>
+            .mobile-service-section {
+                position: relative;
+                padding: 60px 20px;
+                background: var(--surface);
+                border-top: 1px solid var(--border);
+                border-bottom: 1px solid var(--border);
+                overflow: hidden;
+            }
+            
+            .mobile-service-bg-text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: clamp(4rem, 15vw, 12rem);
+                font-weight: 900;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.03);
+                line-height: 0.9;
+                text-align: center;
+                pointer-events: none;
+                white-space: nowrap;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .mobile-service-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                align-items: center;
+                position: relative;
+                z-index: 1;
+            }
+            
+            .mobile-service-content {
+                text-align: center;
+                max-width: 500px;
+            }
+            
+            .mobile-service-image {
+                width: 100%;
+                max-width: 600px;
+            }
+            
+            .mobile-service-image img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+            
+            /* Tablet and up - 50/50 split */
+            @media (min-width: 768px) {
+                .mobile-service-section {
+                    padding: 100px 40px;
+                }
+                
+                .mobile-service-container {
+                    flex-direction: row;
+                    justify-content: space-between;
+                    gap: 60px;
+                }
+                
+                .mobile-service-content {
+                    flex: 1;
+                    text-align: left;
+                    max-width: 450px;
+                }
+                
+                .mobile-service-image {
+                    flex: 1;
+                    max-width: none;
+                }
+            }
+            
+            /* Desktop */
+            @media (min-width: 1024px) {
+                .mobile-service-section {
+                    padding: 120px 60px;
+                }
+                
+                .mobile-service-container {
+                    gap: 80px;
+                }
+                
+                .mobile-service-image img {
+                    transform: scale(1.1);
+                    transform-origin: right center;
+                }
+            }
+        </style>
 
         <!-- Portfolio Section -->
         <section style="padding: 80px 40px; max-width: 1200px; margin: 0 auto;">
