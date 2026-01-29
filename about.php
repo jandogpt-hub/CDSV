@@ -97,7 +97,7 @@ $pageDescription = 'Meet Art, founder of Excalibur Mobile Detail with 16+ years 
                 </tr>
                 <tr>
                     <td style="padding: 15px 0; color: var(--muted);">Contact</td>
-                    <td style="padding: 15px 0; color: var(--accent); text-align: right;">(559) 802-4392</td>
+                    <td style="padding: 15px 0; color: var(--accent); text-align: right;">(559) 205-9006</td>
                 </tr>
             </table>
         </section>

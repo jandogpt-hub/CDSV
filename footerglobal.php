@@ -26,7 +26,7 @@
                 <h4 class="footer-heading">Contact</h4>
                 <div class="footer-text">
                     <p><strong>Excalibur Mobile Detail</strong></p>
-                    <p>(559) 802-4392</p>
+                    <p>(559) 205-9006</p>
                     <p>Visalia, CA & Surrounding Areas</p>
                     <p><a href="mailto:info@excaliburmobile.com" style="color: inherit; text-decoration: none;">Get a Quote</a></p>
                 </div>

@@ -19,7 +19,7 @@ $pageDescription = 'Professional paint correction, headlight restoration, engine
                     PAINT · TRIM · ENGINE · FLEET
                 </div>
                 <div>
-                    (559) 802-4392<br>
+                    (559) 205-9006<br>
                     16+ YEARS EXPERIENCE
                 </div>
             </div>

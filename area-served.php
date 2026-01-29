@@ -129,7 +129,7 @@ $pageDescription = 'Mobile ceramic coating and auto detailing serving Visalia, T
 
             <div style="margin-top: 50px; padding: 30px; border: 1px solid var(--border); background: rgba(255,255,255,0.02);">
                 <p style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); line-height: 1.8;">
-                    <strong style="color: var(--accent);">Don't see your city?</strong> We may still be able to serve you. Contact us at <a href="tel:5598024392" style="color: var(--accent);">(559) 802-4392</a> to discuss your location.
+                    <strong style="color: var(--accent);">Don't see your city?</strong> We may still be able to serve you. Contact us at <a href="tel:5592059006" style="color: var(--accent);">(559) 205-9006</a> to discuss your location.
                 </p>
             </div>
         </section>

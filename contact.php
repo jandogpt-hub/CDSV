@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'Contact Excalibur Mobile Detail | (559) 802-4392 | Visalia';
-$pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto detailing in Visalia. Call (559) 802-4392. Open Mon-Sun 7AM-5PM. Free quotes available.';
+$pageTitle = 'Contact Excalibur Mobile Detail | (559) 205-9006 | Visalia';
+$pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto detailing in Visalia. Call (559) 205-9006. Open Mon-Sun 7AM-5PM. Free quotes available.';
 ?>
 <?php include 'header.php'; ?>
 <?php include 'globalheader.php'; ?>
@@ -19,7 +19,7 @@ $pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto
                     FREE QUOTES · SAME-DAY RESPONSE
                 </div>
                 <div>
-                    (559) 802-4392<br>
+                    (559) 205-9006<br>
                     MON–SUN: 7:00 AM – 5:00 PM
                 </div>
             </div>
@@ -36,7 +36,7 @@ $pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto
                     <div style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--muted); line-height: 2.5;">
                         <div style="border-bottom: 1px solid var(--border); padding: 20px 0;">
                             <span style="color: var(--accent);">PHONE</span><br>
-                            <a href="tel:5598024392" style="color: var(--accent); text-decoration: none; font-size: 1.2rem;">(559) 802-4392</a>
+                            <a href="tel:5592059006" style="color: var(--accent); text-decoration: none; font-size: 1.2rem;">(559) 205-9006</a>
                         </div>
                         
                         <div style="border-bottom: 1px solid var(--border); padding: 20px 0;">
@@ -63,23 +63,8 @@ $pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto
                 <div>
                     <h2 style="font-size: 1.2rem; margin-bottom: 40px; text-transform: uppercase; font-family: var(--font-mono);">Request a Quote</h2>
                     
-                    <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); line-height: 1.8; border: 1px solid var(--border); padding: 40px;">
-                        <p style="margin-bottom: 30px;">
-                            For the fastest response, give us a call or use the button below to start a conversation.
-                        </p>
-                        
-                        <p style="margin-bottom: 30px;">
-                            <strong style="color: var(--accent);">What to have ready:</strong>
-                        </p>
-                        
-                        <ul style="list-style: none; margin-bottom: 30px;">
-                            <li style="padding: 8px 0;">→ Vehicle make, model, and year</li>
-                            <li style="padding: 8px 0;">→ Current paint condition (new, swirls, scratches)</li>
-                            <li style="padding: 8px 0;">→ Service(s) you're interested in</li>
-                            <li style="padding: 8px 0;">→ Preferred date and location</li>
-                        </ul>
-                        
-                        <a href="https://app.urable.com/virtual-shop/bBLskP5ynNpywa8LJCRp" class="tensile-button" target="_blank" style="width: 100%; text-align: center; display: block; text-decoration: none;">Book Appointment Online</a>
+                    <div style="border: 1px solid var(--border); background: #fff; border-radius: 8px; overflow: hidden;">
+                        <iframe src="https://app.urable.com/form/bBLskP5ynNpywa8LJCRp/NV3z0xy8jDploVCrxUw0" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="1200px" width="100%"></iframe>
                     </div>
                 </div>
             </div>
