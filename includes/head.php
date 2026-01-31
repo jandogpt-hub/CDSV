@@ -13,6 +13,7 @@
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Car Detailing Service Visalia | Premium Auto Detailing'; ?></title>
     <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Premium car detailing service in Visalia, CA. Expert paint correction, ceramic coating, interior detailing, and mobile detailing services. We come to you.'; ?>">
     <meta name="keywords" content="car detailing Visalia, auto detailing, ceramic coating, paint correction, mobile detailing, Visalia CA">
+    <link rel="canonical" href="https://cardetailingservicevisalia.com<?php echo $_SERVER['REQUEST_URI']; ?>">
     
     <!-- Preconnects for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +48,7 @@
         "latitude": 36.3302,
         "longitude": -119.2921
       },
-      "url": "https://excaliburmobile.com",
+      "url": "https://cardetailingservicevisalia.com",
       "telephone": "+15592059006",
       "priceRange": "$$",
       "openingHoursSpecification": [
