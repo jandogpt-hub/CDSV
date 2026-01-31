@@ -517,7 +517,16 @@ h1 {
 /* Service Cards (New Visual Grid) */
 .service-grid-new {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+@media (min-width: 600px) {
+    .service-grid-new {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
     gap: 30px;
     margin-top: 40px;
 }

@@ -27,7 +27,7 @@
     <!-- Global CSS -->
     <?php
         $cssPath = $_SERVER['DOCUMENT_ROOT'] . '/style.css';
-        $cssVer = file_exists($cssPath) ? filemtime($cssPath) : '1.0';
+        $cssVer = file_exists($cssPath) ? filemtime($cssPath) : 'CACHE_BUST_FINAL';
     ?>
     <link rel="stylesheet" href="/style.css?v=<?php echo $cssVer; ?>">
 
