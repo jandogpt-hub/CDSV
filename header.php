@@ -11,6 +11,8 @@
         content="car detailing Visalia, auto detailing, ceramic coating, paint correction, mobile detailing, Visalia CA">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://maps.googleapis.com">
+    <link rel="preconnect" href="https://app.urable.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=JetBrains+Mono:wght@300;500&display=swap"
         rel="stylesheet">

@@ -621,7 +621,7 @@ $pageDescription = 'Premium car detailing service in Visalia, CA. Expert paint c
                 <p class="section-label">Book Now</p>
                 <h2 class="section-title">Schedule Your <span class="green-accent">Detail</span></h2>
                 <div style="margin-top: 40px; margin-bottom: 40px; background: #fff; border-radius: 8px; overflow: hidden;">
-                    <iframe src="https://app.urable.com/form/bBLskP5ynNpywa8LJCRp/NV3z0xy8jDploVCrxUw0" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="1200px" width="100%"></iframe>
+                    <iframe src="https://app.urable.com/form/bBLskP5ynNpywa8LJCRp/NV3z0xy8jDploVCrxUw0" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="1200px" width="100%" loading="lazy"></iframe>
                 </div>
             </div>
         </section>

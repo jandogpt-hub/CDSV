@@ -64,7 +64,7 @@ $pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto
                     <h2 style="font-size: 1.2rem; margin-bottom: 40px; text-transform: uppercase; font-family: var(--font-mono);">Request a Quote</h2>
                     
                     <div style="border: 1px solid var(--border); background: #fff; border-radius: 8px; overflow: hidden;">
-                        <iframe src="https://app.urable.com/form/bBLskP5ynNpywa8LJCRp/NV3z0xy8jDploVCrxUw0" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="1200px" width="100%"></iframe>
+                        <iframe src="https://app.urable.com/form/bBLskP5ynNpywa8LJCRp/NV3z0xy8jDploVCrxUw0" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="1200px" width="100%" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
