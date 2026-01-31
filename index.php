@@ -339,6 +339,81 @@ $pageDescription = 'Premium car detailing service in Visalia, CA. Expert paint c
             height: 80vh;
         }
     }
+    
+    /* New Service Card Styles */
+    .service-grid-new {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .service-card-visual {
+        position: relative;
+        height: 250px;
+        border-radius: 12px;
+        overflow: hidden;
+        text-decoration: none;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        transition: transform 0.3s var(--transition), box-shadow 0.3s var(--transition);
+        display: block;
+        border: 1px solid var(--border);
+    }
+
+    .service-card-visual:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0,184,76,0.1);
+        border-color: var(--accent-green);
+    }
+
+    .service-card-visual img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.6s var(--transition);
+    }
+
+    .service-card-visual:hover img {
+        transform: scale(1.05);
+    }
+
+    .service-overlay-visual {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        background: linear-gradient(to top, rgba(0,0,0,0.95), transparent);
+        display: flex;
+        align-items: flex-end;
+        padding: 25px;
+    }
+
+    .service-title-visual {
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family: var(--font-sans);
+        letter-spacing: 0.5px;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .service-badge {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: #ff0000;
+        color: #fff;
+        padding: 5px 12px;
+        font-size: 0.65rem;
+        font-weight: 700;
+        font-family: var(--font-sans);
+        text-transform: uppercase;
+        border-radius: 20px;
+        z-index: 10;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
 </style>
 
 <?php include 'globalheader.php'; ?>
@@ -384,37 +459,39 @@ $pageDescription = 'Premium car detailing service in Visalia, CA. Expert paint c
             <p class="section-label">Our Services</p>
             <h2 class="section-title">What We <span class="green-accent">Offer</span></h2>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px;">
-                <a href="/services/surface-protection.php" class="service-card" style="text-decoration: none; color: inherit;">
-                    <div style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-green); margin-bottom: 15px;">01</div>
-                    <h3 style="font-size: 1.5rem; font-weight: 400; margin-bottom: 15px;">Surface Protection</h3>
-                    <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">
-                        Ceramic coating, PPF, and paint sealants. 5, 7, and 10-year warranties with Carfax registration.
-                    </p>
+            <div class="service-grid-new">
+                <!-- Ceramic Coating -->
+                <a href="/services/ceramic-coating.php" class="service-card-visual">
+                    <span class="service-badge">Recommended</span>
+                    <img src="/images/hero-luxury-car.png" alt="Ceramic Coating Visalia" loading="lazy">
+                    <div class="service-overlay-visual">
+                        <div class="service-title-visual">Ceramic Coating</div>
+                    </div>
                 </a>
-                
-                <a href="/services/specialty-restoration.php#paint-correction" class="service-card" style="text-decoration: none; color: inherit;">
-                    <div style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-green); margin-bottom: 15px;">02</div>
-                    <h3 style="font-size: 1.5rem; font-weight: 400; margin-bottom: 15px;">Paint Correction</h3>
-                    <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">
-                        Multi-stage polishing to eliminate swirls, scratches, and oxidation. Restore showroom finish.
-                    </p>
+
+                <!-- Paint Correction -->
+                <a href="/services/specialty-restoration.php#paint-correction" class="service-card-visual">
+                    <span class="service-badge">Popular</span>
+                    <img src="/images/paint-correction.png" alt="Paint Correction Before After" loading="lazy">
+                    <div class="service-overlay-visual">
+                        <div class="service-title-visual">Paint Correction</div>
+                    </div>
                 </a>
-                
-                <a href="/services/interior-detailing.php" class="service-card" style="text-decoration: none; color: inherit;">
-                    <div style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-green); margin-bottom: 15px;">03</div>
-                    <h3 style="font-size: 1.5rem; font-weight: 400; margin-bottom: 15px;">Interior Detailing</h3>
-                    <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">
-                        Deep cleaning, leather conditioning, and odor removal. Hot water extraction & ozone treatment.
-                    </p>
+
+                <!-- Detailing -->
+                <a href="/services/interior-detailing.php" class="service-card-visual">
+                    <img src="/images/interior-detailing.png" alt="Interior Auto Detailing" loading="lazy">
+                    <div class="service-overlay-visual">
+                        <div class="service-title-visual">Detailing</div>
+                    </div>
                 </a>
-                
-                <a href="/services/specialty-restoration.php#mobile-services" class="service-card" style="text-decoration: none; color: inherit;">
-                    <div style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-green); margin-bottom: 15px;">04</div>
-                    <h3 style="font-size: 1.5rem; font-weight: 400; margin-bottom: 15px;">Mobile Service</h3>
-                    <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); line-height: 1.7;">
-                        We come to your home or office. Fully self-contained with RO purified water system.
-                    </p>
+
+                <!-- Mobile Detailing -->
+                <a href="/area-served.php" class="service-card-visual">
+                    <img src="/images/sprinter-van.png" alt="Mobile Detailing Service" loading="lazy">
+                    <div class="service-overlay-visual">
+                        <div class="service-title-visual">Mobile Detailing</div>
+                    </div>
                 </a>
             </div>
         </section>
