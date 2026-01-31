@@ -32,48 +32,7 @@
     <link rel="stylesheet" href="/style.css?v=<?php echo $cssVer; ?>">
 
     <!-- Schema.org JSON-LD -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AutoDetailing",
-      "name": "Excalibur Mobile Detail",
-      "image": "https://res.cloudinary.com/dya7x7z9g/image/upload/v1768432137/car-detaling-services-logo250x250_blxehz.png",
-      "description": "Premium mobile auto detailing, ceramic coating, and paint correction services in Visalia, CA.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Mobile Service",
-        "addressLocality": "Visalia",
-        "addressRegion": "CA",
-        "postalCode": "93291",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 36.3302,
-        "longitude": -119.2921
-      },
-      "url": "https://cardetailingservicevisalia.com",
-      "telephone": "+15592059006",
-      "priceRange": "$$",
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "07:00",
-          "closes": "17:00"
-        }
-      ],
-      "areaServed": ["Visalia", "Tulare", "Hanford", "Lemoore", "Selma", "Fresno"]
-    }
-    </script>
+    <?php if (isset($pageSchema)) { echo $pageSchema; } ?>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->

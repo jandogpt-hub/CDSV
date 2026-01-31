@@ -528,6 +528,30 @@ h1 {
     }
 }
 
+/* Generic Responsive Grids (Replaces Inline Styles) */
+.grid-responsive-200 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.grid-responsive-300 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+@media (min-width: 600px) {
+    .grid-responsive-200 {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .grid-responsive-300 {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
 .service-card-visual {
     position: relative;
     height: 250px;

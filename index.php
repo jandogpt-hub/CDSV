@@ -1,6 +1,41 @@
 <?php
 $pageTitle = 'Car Detailing Service Visalia | Premium Auto Detailing';
 $pageDescription = 'Premium car detailing service in Visalia, CA. Expert paint correction, ceramic coating, interior detailing, and mobile detailing services. Book your appointment today.';
+$pageSchema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDetailing",
+  "name": "Excalibur Mobile Detail",
+  "image": "https://res.cloudinary.com/dya7x7z9g/image/upload/v1768432137/car-detaling-services-logo250x250_blxehz.png",
+  "description": "Premium mobile auto detailing, ceramic coating, and paint correction services in Visalia, CA.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Mobile Service",
+    "addressLocality": "Visalia",
+    "addressRegion": "CA",
+    "postalCode": "93291",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 36.3302,
+    "longitude": -119.2921
+  },
+  "url": "https://cardetailingservicevisalia.com",
+  "telephone": "+15592059006",
+  "priceRange": "$$",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "07:00",
+      "closes": "17:00"
+    }
+  ],
+  "areaServed": ["Visalia", "Tulare", "Hanford", "Lemoore", "Selma", "Fresno"]
+}
+</script>';
 include 'includes/head.php';
 include 'includes/header.php';
 ?>
@@ -21,7 +56,7 @@ include 'includes/header.php';
 
         <!-- Quick Stats -->
         <section style="padding: 60px 40px; border-bottom: 1px solid var(--border);">
-            <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; text-align: center;">
+            <div style="max-width: 1200px; margin: 0 auto; text-align: center;" class="grid-responsive-200">
                 <div>
                     <div style="font-size: 2.5rem; font-weight: 900; color: var(--accent-green);">16+</div>
                     <div style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px;">Years Experience</div>
@@ -98,7 +133,7 @@ include 'includes/header.php';
             <h2 class="section-title">What Our <span class="green-accent">Clients Say</span></h2>
             <p class="section-subtitle">Real feedback from real customers across the Central Valley.</p>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 50px;">
+            <div class="grid-responsive-300">
                 <div class="testimonial-card">
                     <p class="testimonial-text">
                         "Absolutely blown away by the ceramic coating. My truck looks better than when I bought it new. The paint correction removed years of swirl marks."
@@ -155,7 +190,7 @@ include 'includes/header.php';
             <h2 class="section-title">Results You Can <span class="green-accent">Expect</span></h2>
             <p class="section-subtitle">Before & after transformations from real client vehicles.</p>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 50px;">
+            <div class="grid-responsive-300">
                 <div class="portfolio-card">
                     <img src="https://res.cloudinary.com/dya7x7z9g/image/upload/v1768432137/car-detaling-services-logo250x250_blxehz.png" alt="Paint Correction Result" style="background: var(--surface);">
                     <div class="portfolio-overlay">
