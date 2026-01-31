@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $pageTitle = 'Ceramic Coating & PPF Visalia | Car Detailing Service of Visalia';
 $pageDescription = 'Premium ceramic coating and PPF services in Visalia. Protect your vehicle with nano-ceramic technology and self-healing paint protection film using Ceramic Pro and Kavaca.';
 ?>
@@ -18,7 +18,7 @@ include '../includes/header.php';
             <div class="sub-data">
                 <div>
                     [ PREMIUM PROTECTION ]<br>
-                    NANO-CERAMIC · SELF-HEALING FILM
+                    NANO-CERAMIC Â· SELF-HEALING FILM
                 </div>
                 <div>
                     LIFETIME WARRANTIES<br>
@@ -67,13 +67,13 @@ include '../includes/header.php';
                     Ceramic coating and PPF installation requires meticulous surface preparation. We perform paint correction to remove swirl marks, scratches, and oxidation before applying any protective layer. This process ensures the coating bonds directly to a clean, smooth surface rather than sealing in existing damage. Your vehicle's paint is a reflection of your pride in ownership, and we're dedicated to maintaining that stunning appearance.
                 </p>
                 <p style="margin-bottom: 20px;">
-                    Our fully mobile service brings professional-grade equipment to your location. We use multi-stage machine polishing to achieve ultimate paint clarity before installation. Each vehicle receives a thorough decontamination process that removes embedded brake dust, tar, and industrial fallout. The paint surface must be completely residue-free for proper adhesion. We don't just offer a car wash—we offer a professional auto detailing experience designed to protect your investment.
+                    Our fully mobile service brings professional-grade equipment to your location. We use multi-stage machine polishing to achieve ultimate paint clarity before installation. Each vehicle receives a thorough decontamination process that removes embedded brake dust, tar, and industrial fallout. The paint surface must be completely residue-free for proper adhesion. We don't just offer a car washâ€”we offer a professional auto detailing experience designed to protect your investment.
                 </p>
                 <p style="margin-bottom: 20px;">
                     We're trained and certified in advanced application techniques. Paint protection film requires precise cutting, positioning, and heat application to conform to complex body panels without bubbles or lifting edges. Ceramic coatings demand controlled temperature conditions and specific curing times. Our process follows manufacturer specifications exactly. As a professional service ceramic coating specialist, we take pride in delivering results that exceed expectations.
                 </p>
                 <p>
-                    You get access to top-tier product lines. We apply coatings designed for California's harsh sunlight and extreme temperatures. The products we use are known for their durability under demanding conditions. Each application comes with proper documentation and care instructions to maintain the protection long-term. We don't use cheap alternatives—every customer receives the same top-of-the-line treatment.
+                    You get access to top-tier product lines. We apply coatings designed for California's harsh sunlight and extreme temperatures. The products we use are known for their durability under demanding conditions. Each application comes with proper documentation and care instructions to maintain the protection long-term. We don't use cheap alternativesâ€”every customer receives the same top-of-the-line treatment.
                 </p>
             </div>
         </section>
@@ -181,9 +181,9 @@ include '../includes/header.php';
                 Beyond ceramic coating and PPF, we offer a comprehensive range of auto detailing services to keep your vehicle in top condition. Our interior detailing includes leather treatment, upholstery cleaning, and shampoo services for carpets and fabric surfaces. We also provide engine bay cleaning and much more to ensure every part of your vehicle receives expert care.
             </p>
             <p style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); line-height: 1.8; margin-bottom: 30px;">
-                Our fully mobile detailing service brings professional results directly to you—no transportation required. Whether you need protection for your daily driven commuter, work trucks, or weekend SUV, our team is ready to help.
+                Our fully mobile detailing service brings professional results directly to youâ€”no transportation required. Whether you need protection for your daily driven commuter, work trucks, or weekend SUV, our team is ready to help.
             </p>
-            <a href="/services/interior-detailing.php" style="color: var(--accent-green); font-family: var(--font-mono); text-decoration: none; border-bottom: 1px solid var(--accent-green);">View Interior Services →</a>
+            <a href="/services/interior-detailing" style="color: var(--accent-green); font-family: var(--font-mono); text-decoration: none; border-bottom: 1px solid var(--accent-green);">View Interior Services â†’</a>
         </section>
 
         <!-- Keywords Table -->
@@ -342,3 +342,4 @@ include '../includes/header.php';
     </style>
 
 <?php include '../includes/footer.php'; ?>
+

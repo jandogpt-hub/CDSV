@@ -48,7 +48,7 @@ include 'includes/header.php';
             
             <div class="service-grid-new">
                 <!-- Ceramic Coating -->
-                <a href="/services/ceramic-coating.php" class="service-card-visual">
+                <a href="/services/ceramic-coating" class="service-card-visual">
                     <span class="service-badge">Recommended</span>
                     <img src="/images/hero-luxury-car.png" alt="Ceramic Coating Visalia" loading="lazy">
                     <div class="service-overlay-visual">
@@ -57,7 +57,7 @@ include 'includes/header.php';
                 </a>
 
                 <!-- Paint Correction -->
-                <a href="/services/specialty-restoration.php#paint-correction" class="service-card-visual">
+                <a href="/services/specialty-restoration#paint-correction" class="service-card-visual">
                     <span class="service-badge">Popular</span>
                     <img src="/images/paint-correction.png" alt="Paint Correction Before After" loading="lazy">
                     <div class="service-overlay-visual">
@@ -66,7 +66,7 @@ include 'includes/header.php';
                 </a>
 
                 <!-- Detailing -->
-                <a href="/services/interior-detailing.php" class="service-card-visual">
+                <a href="/services/interior-detailing" class="service-card-visual">
                     <img src="/images/interior-detailing.png" alt="Interior Auto Detailing" loading="lazy">
                     <div class="service-overlay-visual">
                         <div class="service-title-visual">Detailing</div>
@@ -74,7 +74,7 @@ include 'includes/header.php';
                 </a>
 
                 <!-- Mobile Detailing -->
-                <a href="/area-served.php" class="service-card-visual">
+                <a href="/area-served" class="service-card-visual">
                     <img src="/images/sprinter-van.png" alt="Mobile Detailing Service" loading="lazy">
                     <div class="service-overlay-visual">
                         <div class="service-title-visual">Mobile Detailing</div>
@@ -139,7 +139,7 @@ include 'includes/header.php';
                     <p class="section-subtitle" style="margin-bottom: 30px;">
                         Discover detailing right on your doorstep. Our fully self-contained Sprinter van brings professional-grade equipment, RO purified water, and 16+ years of expertise directly to your home or office.
                     </p>
-                    <a href="/services/specialty-restoration.php#mobile-services" class="tensile-button">View Service</a>
+                    <a href="/services/specialty-restoration#mobile-services" class="tensile-button">View Service</a>
                 </div>
                 
                 <!-- Image Side -->

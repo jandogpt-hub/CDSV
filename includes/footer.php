@@ -14,10 +14,10 @@
                 <h4 class="footer-heading">Links</h4>
                 <ul class="footer-links">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/about.php">About Us</a></li>
-                    <li><a href="/services/surface-protection.php">Services</a></li>
-                    <li><a href="/area-served.php">Area Served</a></li>
-                    <li><a href="/contact.php">Contact</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services/surface-protection">Services</a></li>
+                    <li><a href="/area-served">Area Served</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
 
