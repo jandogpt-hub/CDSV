@@ -2,8 +2,10 @@
 $pageTitle = 'About Excalibur Mobile Detail | 16+ Years Experience | Visalia';
 $pageDescription = 'Meet Art, founder of Excalibur Mobile Detail with 16+ years in automotive surface science. $1M insured, Carfax registered coatings, serving Visalia and Central Valley.';
 ?>
-<?php include 'header.php'; ?>
-<?php include 'globalheader.php'; ?>
+<?php
+include 'includes/head.php';
+include 'includes/header.php';
+?>
 
     <main>
         <section class="hero">
@@ -107,4 +109,4 @@ $pageDescription = 'Meet Art, founder of Excalibur Mobile Detail with 16+ years 
         </section>
     </main>
 
-<?php include 'footerglobal.php'; ?>
+<?php include 'includes/footer.php'; ?>

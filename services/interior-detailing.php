@@ -2,8 +2,10 @@
 $pageTitle = 'Interior Detailing Visalia | Deep Clean & Restoration | CDSV';
 $pageDescription = 'Complete interior detailing in Visalia. Deep vacuum, leather conditioning, hot water extraction, ozone odor removal, and sanitation. Mobile service with 16+ years experience.';
 ?>
-<?php include '../header.php'; ?>
-<?php include '../globalheader.php'; ?>
+<?php
+include '../includes/head.php';
+include '../includes/header.php';
+?>
 
     <main>
         <section class="hero">
@@ -105,4 +107,4 @@ $pageDescription = 'Complete interior detailing in Visalia. Deep vacuum, leather
         </section>
     </main>
 
-<?php include '../footerglobal.php'; ?>
+<?php include '../includes/footer.php'; ?>

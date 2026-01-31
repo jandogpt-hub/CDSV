@@ -2,8 +2,10 @@
 $pageTitle = 'Ceramic Coating & PPF Visalia | Car Detailing Service of Visalia';
 $pageDescription = 'Premium ceramic coating and PPF services in Visalia. Protect your vehicle with nano-ceramic technology and self-healing paint protection film using Ceramic Pro and Kavaca.';
 ?>
-<?php include '../header.php'; ?>
-<?php include '../globalheader.php'; ?>
+<?php
+include '../includes/head.php';
+include '../includes/header.php';
+?>
 
     <main>
         <section class="hero">
@@ -339,4 +341,4 @@ $pageDescription = 'Premium ceramic coating and PPF services in Visalia. Protect
         }
     </style>
 
-<?php include '../footerglobal.php'; ?>
+<?php include '../includes/footer.php'; ?>

@@ -44,104 +44,6 @@
         </div>
     </footer>
 
-    <style>
-        #footer {
-            background-color: #050505;
-            border-top: 1px solid var(--border);
-            padding: 80px 40px 40px;
-            font-family: var(--font-mono);
-        }
-
-        .footer-content {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 60px;
-            margin-bottom: 80px;
-        }
-
-        .footer-col {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .footer-heading {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--muted);
-            margin-bottom: 10px;
-        }
-
-        .footer-text {
-            color: #d0d0d0;
-            font-size: 0.9rem;
-            line-height: 1.8;
-            font-weight: 500;
-        }
-
-        .footer-text p {
-            margin-bottom: 10px;
-        }
-
-        .footer-links {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .footer-links a {
-            color: #d0d0d0;
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s var(--transition);
-            font-weight: 500;
-        }
-
-        .footer-links a:hover {
-            color: var(--accent-green);
-        }
-
-        .map-col iframe {
-            border-radius: 4px;
-            filter: grayscale(100%) invert(90%);
-            transition: filter 0.3s var(--transition);
-        }
-
-        .map-col iframe:hover {
-            filter: grayscale(0%) invert(0%);
-        }
-
-        .footer-bottom {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding-top: 40px;
-            border-top: 1px solid var(--border);
-            display: flex;
-            justify-content: space-between;
-            color: var(--muted);
-            font-size: 0.75rem;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        @media (min-width: 768px) {
-            .footer-content {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (min-width: 1024px) {
-            .footer-content {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-    </style>
-
     <script>
         // Antigravity Voice Trigger Function
         function triggerAntigravityVoice() {
@@ -170,20 +72,22 @@
         const cursor = document.getElementById('cursor');
 
         // Only enable custom cursor on non-touch devices
-        if (window.matchMedia('(hover: hover)').matches) {
+        if (window.matchMedia('(hover: hover)').matches && cursor) {
             document.addEventListener('mousemove', (e) => {
                 cursor.style.left = e.clientX + 'px';
                 cursor.style.top = e.clientY + 'px';
             });
 
-            const serviceItems = document.querySelectorAll('.service-item');
+            const serviceItems = document.querySelectorAll('.service-item, .service-card-visual');
             serviceItems.forEach(item => {
                 item.addEventListener('mousemove', (e) => {
                     const bg = item.querySelector('.fluid-bg');
-                    const rect = item.getBoundingClientRect();
-                    const x = e.clientX - rect.left - 150;
-                    const y = e.clientY - rect.top - 150;
-                    bg.style.transform = `translate(${x}px, ${y}px)`;
+                    if(bg) {
+                        const rect = item.getBoundingClientRect();
+                        const x = e.clientX - rect.left - 150;
+                        const y = e.clientY - rect.top - 150;
+                        bg.style.transform = `translate(${x}px, ${y}px)`;
+                    }
                 });
 
                 item.addEventListener('mouseenter', () => {
@@ -195,17 +99,24 @@
                 });
             });
 
-            const btn = document.getElementById('reserveBtn');
-            if (btn) {
+            // Add hover effect to new service cards too if needed, 
+            // but above selector covers it if they have .fluid-bg. 
+            // The new cards use CSS hover effects mainly.
+
+            const btns = document.querySelectorAll('a, button, .tensile-button, .nav-book-btn');
+            btns.forEach(btn => {
                 btn.addEventListener('mouseenter', () => {
-                    cursor.style.transform = 'scale(0)';
+                    cursor.style.transform = 'scale(0.5)';
+                    cursor.style.mixBlendMode = 'normal';
+                    cursor.style.backgroundColor = 'var(--accent-green)';
                 });
                 btn.addEventListener('mouseleave', () => {
                     cursor.style.transform = 'scale(1)';
+                    cursor.style.mixBlendMode = 'difference';
+                    cursor.style.backgroundColor = 'white';
                 });
-            }
+            });
         }
     </script>
 </body>
-
 </html>

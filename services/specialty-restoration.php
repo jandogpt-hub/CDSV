@@ -2,8 +2,10 @@
 $pageTitle = 'Paint Correction & Specialty Services Visalia | CDSV';
 $pageDescription = 'Professional paint correction, headlight restoration, engine bay detailing, and mobile services in Visalia. 1, 2, 3-step correction. Fleet packages available.';
 ?>
-<?php include '../header.php'; ?>
-<?php include '../globalheader.php'; ?>
+<?php
+include '../includes/head.php';
+include '../includes/header.php';
+?>
 
     <main>
         <section class="hero">
@@ -123,4 +125,4 @@ $pageDescription = 'Professional paint correction, headlight restoration, engine
         </section>
     </main>
 
-<?php include '../footerglobal.php'; ?>
+<?php include '../includes/footer.php'; ?>

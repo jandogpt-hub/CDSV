@@ -2,8 +2,10 @@
 $pageTitle = 'Full Detail Visalia | Complete Interior & Exterior | CDSV';
 $pageDescription = 'Complete auto detailing in Visalia. Full interior deep clean plus exterior wash, decontamination, and ceramic protection. The ultimate refresh for your vehicle.';
 ?>
-<?php include '../header.php'; ?>
-<?php include '../globalheader.php'; ?>
+<?php
+include '../includes/head.php';
+include '../includes/header.php';
+?>
 
     <main>
         <section class="hero">
@@ -73,4 +75,4 @@ $pageDescription = 'Complete auto detailing in Visalia. Full interior deep clean
         </section>
     </main>
 
-<?php include '../footerglobal.php'; ?>
+<?php include '../includes/footer.php'; ?>

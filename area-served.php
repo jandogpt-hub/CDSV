@@ -2,8 +2,10 @@
 $pageTitle = 'Areas Served | Visalia, Tulare, Fresno, Hanford | CDSV';
 $pageDescription = 'Mobile ceramic coating and auto detailing serving Visalia, Tulare, Hanford, Selma, Clovis, and Fresno. We bring showroom-quality results to your location.';
 ?>
-<?php include 'header.php'; ?>
-<?php include 'globalheader.php'; ?>
+<?php
+include 'includes/head.php';
+include 'includes/header.php';
+?>
 
     <main>
         <section class="hero">
@@ -139,4 +141,4 @@ $pageDescription = 'Mobile ceramic coating and auto detailing serving Visalia, T
         </section>
     </main>
 
-<?php include 'footerglobal.php'; ?>
+<?php include 'includes/footer.php'; ?>

@@ -2,8 +2,10 @@
 $pageTitle = 'Ceramic Coating & Surface Protection Visalia | PPF | CDSV';
 $pageDescription = 'Professional ceramic coating and paint protection in Visalia. 5-10 year nano-ceramic coatings from $399, paint protection film (PPF), and wax sealants. Carfax registered.';
 ?>
-<?php include '../header.php'; ?>
-<?php include '../globalheader.php'; ?>
+<?php
+include '../includes/head.php';
+include '../includes/header.php';
+?>
 
     <main>
         <section class="hero">
@@ -150,4 +152,4 @@ $pageDescription = 'Professional ceramic coating and paint protection in Visalia
         </section>
     </main>
 
-<?php include '../footerglobal.php'; ?>
+<?php include '../includes/footer.php'; ?>

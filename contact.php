@@ -1,9 +1,9 @@
 <?php
 $pageTitle = 'Contact Excalibur Mobile Detail | (559) 205-9006 | Visalia';
 $pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto detailing in Visalia. Call (559) 205-9006. Open Mon-Sun 7AM-5PM. Free quotes available.';
+include 'includes/head.php';
+include 'includes/header.php';
 ?>
-<?php include 'header.php'; ?>
-<?php include 'globalheader.php'; ?>
 
     <main>
         <section class="hero">
@@ -79,4 +79,4 @@ $pageDescription = 'Contact Excalibur Mobile Detail for ceramic coating and auto
         </section>
     </main>
 
-<?php include 'footerglobal.php'; ?>
+<?php include 'includes/footer.php'; ?>
