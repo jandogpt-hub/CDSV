@@ -11,6 +11,9 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME}.php -f
     RewriteRule ^(.*?)/?$ $1.php [L]
+
+    # Custom 404 Page
+    ErrorDocument 404 /404.php
 </IfModule>
 
 # Enable GZIP Compression
